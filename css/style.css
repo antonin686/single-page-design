@@ -76,6 +76,10 @@ ul {
   background-color: #1c8d73;
 }
 
+.text-lime{
+  color: #1c8d73;
+}
+
 .bg-green {
   background-color: #22cb5c;
 }
@@ -134,12 +138,6 @@ ul {
   gap: 1rem;
 }
 
-.banner-box .btn-links a {
-  background-color: #66ad47;
-  padding: 0.5rem;
-  color: #fff;
-}
-
 .services {
   display: flex;
   justify-content: space-around;
@@ -178,6 +176,10 @@ ul {
   margin: 0.5rem 0;
   text-transform: uppercase;
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.btn-link:hover{
+  background-color: darkgreen;
 }
 
 .gig-wrapper {
@@ -235,7 +237,7 @@ ul {
 .data-wrapper{
     padding: 2rem 0;
     background-color: rgb(220,220,220);
-    margin: 1rem 0;
+    margin: 2rem 0;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -267,4 +269,70 @@ ul {
     color: #fff;
     padding: .3rem .5rem;
     border-top-left-radius: 0.5rem;
+}
+
+.trustscore-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.text-lg {
+  font-size: 2.5rem !important;
+}
+
+.trustscore-wrapper h1{
+  font-size: 2rem;
+}
+
+.score-wrapper{
+  display: flex;
+  gap: .3rem;
+  font-size: 2rem;
+  margin: .5rem 0;
+}
+
+.score{
+  color: #fff;
+  padding: .2rem;
+  background-color: #6ec72d;
+}
+
+.noscore{
+  color: #fff;
+  padding: .2rem;
+  background-color: #758283;
+}
+
+.mention-wrapper{
+  background-color: #758283;
+  color: #fff;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mentions{
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.mentions img{
+  width: 12rem;
+  height: auto;
+}
+
+footer{
+  background-color: rgb(6,46,58);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  color: #fff;
+}
+
+footer p{
+  text-align: center;
 }
