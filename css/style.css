@@ -337,7 +337,7 @@ ul {
 }
 
 .mention-wrapper{
-  background-color: #758283;
+  background-color: rgb(128,128,128);
   color: #fff;
   padding: 2rem 0;
   display: flex;
@@ -353,9 +353,21 @@ ul {
   gap: 1rem;
 }
 
-.mentions img{
-  width: 11rem;
-  height: auto;
+.mention .text-lg{
+  font-size: 2rem !important;
+  background: linear-gradient(to top, #999999 0%, #ffffff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bolder;
+}
+
+.mention .text-md{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #000;
+  background: linear-gradient(to top, #000000 0%, #555555 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 footer{
